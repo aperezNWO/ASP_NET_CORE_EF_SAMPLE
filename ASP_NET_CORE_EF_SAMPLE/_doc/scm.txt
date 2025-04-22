@@ -1,0 +1,16 @@
+echo "# ASP_NET_CORE_EF_SAMPLE" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/aperezNWO/ASP_NET_CORE_EF_SAMPLE.git
+git push -u origin main
+
+(despues de copiar nuevos archivos)
+
+git add * 
+git commit -n"second commit"
+git push
+git push
+
+(debe decir "Everything is up to date")
